@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    double u, a, t, b, c, p;
+    double a, u, t, b, c, p;
 
     //Taking various variables as input from the user
     printf("Enter u: ");
