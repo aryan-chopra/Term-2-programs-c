@@ -18,6 +18,7 @@ int main(void)
     int difference = firstNumber - secondNumber;
     //Explicitly converting "fristNumber" and "secondNumber" to "double" to perform division
     float division = (float)firstNumber / (float)secondNumber;
+    
     printf("Sum: %i\n", sum);
     printf("Product: %i\n", product);
     printf("Difference: %i\n", difference);
