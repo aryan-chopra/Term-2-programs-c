@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-int main(void) {
-
+int main(void) 
+{
     int number;
 
     //Getting a user input, demonstrating the use of 'scanf'
