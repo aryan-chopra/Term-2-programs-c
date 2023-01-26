@@ -9,7 +9,7 @@ int main(void)
     const float PI = 3.142;
 
     // Taking radius as input from the user
-    printf("Enter the radius of the circe: ");
+    printf("Enter the radius of the circle: ");
     scanf("%f", &radius);
 
     // Calculating area and circumference and printing them
