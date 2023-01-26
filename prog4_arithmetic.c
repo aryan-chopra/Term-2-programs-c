@@ -22,4 +22,6 @@ int main(void)
     printf("Product: %i\n", product);
     printf("Difference: %i\n", difference);
     printf("Division: %f\n", division);
+    
+    return 0;
 }
