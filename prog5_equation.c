@@ -9,30 +9,32 @@
 
 int main(void)
 {
-    double a, u, t, b, c, p;
+    float a, u, t, b, c, p;
 
     //Taking various variables as input from the user
     printf("Enter u: ");
-    scanf("%lf", &u);
+    scanf("%f", &u);
     printf("Enter a: ");
-    scanf("%lf", &a);
+    scanf("%f", &a);
     printf("Enter t: ");
-    scanf("%lf", &t);
+    scanf("%f", &t);
     printf("Enter b: ");
-    scanf("%lf", &b);
+    scanf("%f", &b);
     printf("Enter c: ");
-    scanf("%lf", &c);
+    scanf("%f", &c);
     printf("Enter p: ");
-    scanf("%lf", &p);
+    scanf("%f", &p);
 
     //Calculating the various variables required from the equations provided and printing the result
-    double V = u + (a * t);
-    double S = (u * t) + (0.5 * a  * (t * t));
-    double T = (2 * a) + sqrt(b + (9 * c));
-    double H = sqrt(b * b) + (p * p);
+    float V = u + (a * t);
+    float S = (u * t) + (0.5 * a  * powf(t, 2));
+    float T = (2 * a) + sqrt(b + (9 * c));
+    float H = sqrt(b * b) + powf(p, 2);
 
-    printf("V: %lf\n", V);
-    printf("S: %lf\n", S);
-    printf("T: %lf\n", T);
-    printf("H: %lf\n", H);
+    printf("V: %f\n", V);
+    printf("S: %f\n", S);
+    printf("T: %f\n", T);
+    printf("H: %f\n", H);
+    
+    return 0;
 }
