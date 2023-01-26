@@ -17,12 +17,12 @@ int main(void)
     int product = firstNumber * secondNumber;
     int difference = firstNumber - secondNumber;
     //Explicitly converting "fristNumber" and "secondNumber" to "double" to perform division
-    float division = (float)firstNumber / (float)secondNumber;
+    float quotient = (float)firstNumber / (float)secondNumber;
     
     printf("Sum: %i\n", sum);
     printf("Product: %i\n", product);
     printf("Difference: %i\n", difference);
-    printf("Division: %0.2f\n", division);
+    printf("Quotient: %0.2f\n", division);
     
     return 0;
 }
