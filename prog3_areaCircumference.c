@@ -18,4 +18,6 @@ int main(void)
 
     printf("Area: %0.2f\n", area);
     printf("Circumference: %0.2f\n", circumference);
+    
+    return 0;
 }
