@@ -1,3 +1,5 @@
+//Write a program to calculate the area and the circumference of a circle by using radius as the input provided by the user.
+
 #include <stdio.h>
 
 int main(void)
