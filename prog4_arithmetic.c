@@ -22,7 +22,7 @@ int main(void)
     printf("Sum: %i\n", sum);
     printf("Product: %i\n", product);
     printf("Difference: %i\n", difference);
-    printf("Quotient: %0.2f\n", division);
+    printf("Quotient: %0.2f\n", quotient);
     
     return 0;
 }
