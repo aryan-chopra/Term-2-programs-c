@@ -29,12 +29,12 @@ int main(void)
     float V = u + (a * t);
     float S = (u * t) + (0.5 * a  * powf(t, 2));
     float T = (2 * a) + sqrt(b + (9 * c));
-    float H = sqrt(b * b) + powf(p, 2);
+    float H = sqrt(powf(b, 2) + powf(p, 2));
 
-    printf("V: %f\n", V);
-    printf("S: %f\n", S);
-    printf("T: %f\n", T);
-    printf("H: %f\n", H);
+    printf("V: %.2f\n", V);
+    printf("S: %.2f\n", S);
+    printf("T: %.2f\n", T);
+    printf("H: %.2f\n", H);
     
     return 0;
 }
