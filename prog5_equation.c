@@ -27,7 +27,7 @@ int main(void)
 
     //Calculating the various variables required from the equations provided and printing the result
     float V = u + (a * t);
-    float S = (u * t) + (0.5 * a  * powf(t, 2));
+    float S = (u * t) + (1 / (float)2 * a  * powf(t, 2));
     float T = (2 * a) + sqrt(b + (9 * c));
     float H = sqrt(powf(b, 2) + powf(p, 2));
 
