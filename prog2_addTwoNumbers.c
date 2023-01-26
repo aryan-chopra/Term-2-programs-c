@@ -1,5 +1,5 @@
-// Write a program to show the use to input (Scanf)/ output (Printf) statements and block structures of C program by highlighting the features of stdio.h
-
+//Write a program to add two numbers and display the sum.
+    
 #include <stdio.h>
 
 int main(void)
