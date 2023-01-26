@@ -15,4 +15,6 @@ int main(void)
     double circumference = 2 * 3.142 * radius;
     printf("Area: %f\n", area);
     printf("Circumference: %f\n", circumference);
+    
+    return 0;
 }
