@@ -1,4 +1,4 @@
-/*Write a program to swap two variable:
+/*Write a program to swap two variables:
   b) Without using temporary variable*/
 
 #include <stdio.h>
