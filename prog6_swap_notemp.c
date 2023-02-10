@@ -1,3 +1,6 @@
+/*Write a program to swap two variables:
+  b) Without using temporary variable*/
+
 #include <stdio.h>
 
 int main(void)
