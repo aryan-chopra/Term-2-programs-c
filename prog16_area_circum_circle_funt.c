@@ -1,3 +1,5 @@
+//Write a program to calculate the area and circumference of a circle using functions.
+
 #include <stdio.h>
 
 float area(float radius);
