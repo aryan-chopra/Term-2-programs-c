@@ -1,6 +1,7 @@
 /* Write the following programs using switch case statement:
    To check that an input alphabet is vowel or consonant */
 
+#include <stdbool.h>
 #include <stdio.h>
 
 int main(void)
@@ -9,41 +10,17 @@ int main(void)
     printf("Enter an alphabet: ");
     scanf("%c", &alphabet);
 
-    switch (alphabet)
+    if (alphabet >= 'A' && alphabet <= 'Z')
     {
-    case 'a':
-        printf("Vowel\n");
-        break;
-    case 'e':
-        printf("Vowel\n");
-        break;
-    case 'i':
-        printf("Vowel\n");
-        break;
-    case 'o':
-        printf("Vowel\n");
-        break;
-    case 'u':
-        printf("Vowel\n");
-        break;
-    case 'A':
-        printf("Vowel\n");
-        break;
-    case 'E':
-        printf("Vowel\n");
-        break;
-    case 'I':
-        printf("Vowel\n");
-        break;
-    case 'O':
-        printf("Vowel\n");
-        break;
-    case 'U':
-        printf("Vowel\n");
-        break;
-    default:
-        printf("Consonant\n");
-        break;
+        alphabet += 32;
+    }
+    switch (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u')
+    {
+        case true:
+            printf("Vowel\n");
+            break;
+        default:
+            printf("Consonant\n");
     }
 
     return 0;
