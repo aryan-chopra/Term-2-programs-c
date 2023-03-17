@@ -57,11 +57,15 @@ bool armstrong(int number)
     while (number > 0)
     {
         int digit = number % 10;
+        printf("digit: %d\n", digit);
         sumOfDigits += pow(digit, numberOfDigits);
+        printf("SumD: %d\n", sumOfDigits);
+        number /= 10;
     }
     number = cloneNumber;
+    printf("Sum: %d\n", sumOfDigits);
 
-    if (number = sumOfDigits)
+    if (number == sumOfDigits)
     {
         return true;
     }
